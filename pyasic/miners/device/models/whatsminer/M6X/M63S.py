@@ -19,7 +19,8 @@ from pyasic.miners.device.makes import WhatsMinerMake
 
 class M63SVK10(WhatsMinerMake):
     raw_model = MinerModel.WHATSMINER.M63SVK10
-
+    
+    expected_chips = 340
     expected_fans = 0
 
 
